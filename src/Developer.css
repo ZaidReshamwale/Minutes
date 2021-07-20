@@ -1,0 +1,12 @@
+.ccon {
+	background-color: black;
+	color: white;
+	 padding-top: 10px;
+}
+
+
+.devimg{
+	object-fit: cover;
+	height:  100px !important;
+
+}
