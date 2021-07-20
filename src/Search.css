@@ -1,0 +1,114 @@
+
+/*#searchinp{
+
+	border-radius: 10px;
+	height: 40px;
+	border-color: blue;
+	 box-shadow:  2px 5px  40px  rgba(0,2,0,0.79);
+     
+       animation: glowing 20s linear infinite;
+       margin-bottom: 20px;
+}
+
+.sicon {
+	height: 40px;
+	border-radius: 10px;
+	border: none;
+	 background-color: #ffffff;
+	   margin-bottom: 20px;
+}
+
+*/
+#search-input{
+	  background-image: url('iconssearch.gif');
+	  background-position: 10px 10px;
+	  background-size: 30px;
+  background-repeat: no-repeat;
+
+  font-size: 16px;
+  padding: 12px 20px 12px 50px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+margin-top: 18px;
+	border-radius: 10px;
+	height: 50px;
+	font-size: 20px;
+	   width: 100%;	
+	border-color: blue;
+	 box-shadow:  2px 5px  40px  rgba(0,2,0,0.79);
+     box-sizing: border-box;
+       animation: glowing 20s linear infinite;
+       margin-bottom: 20px;
+}
+
+.sicon {
+	height: 40px;
+	border-radius: 10px;
+	border: none;
+	 background-color: #ffffff;
+	   margin-bottom: 20px;
+	   position: relative;
+}
+
+
+
+/* Results */
+.results-container {
+	display: inline-flex;
+	flex-flow: wrap;
+
+}
+
+.result-items {
+	position: relative;
+	padding: 16px;
+	border: 1px solid #898989;
+	margin: 16px;
+	text-align: center;
+	min-width: 200px;
+	text-decoration: none;
+	box-shadow: 2px 2px 2px #898989;
+}
+
+.image-username {
+	color: coral;
+	font-size: 18px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	margin: 0;
+	background: rgba(0, 0, 0, 0.8);
+	padding: 5px 10px;
+
+}
+
+.image {
+	width: 100%;
+	height: 250px;
+	 box-shadow:  20px 5px  40px  rgba(0,2,0,0.79);
+}
+
+.image-wrapper {
+	display: inline;
+	align-items: center;
+	box-sizing: border-box;
+	height: 100%;
+	justify-content: center;
+}
+
+/*Loader*/
+.search-loading {
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+/*Show and hide*/
+.show {
+	display: flex;
+}
+
+.hide {
+	display: none;
+}
