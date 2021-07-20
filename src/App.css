@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Redressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:wght@500&display=swap');
 .App {
   text-align: center;
 }
@@ -7,11 +10,12 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+
+ .navbar-nav.navbar-center { 
+            position: absolute; 
+            left: 50%; 
+            transform: translatex(-50%); 
+        } 
 
 .App-header {
   background-color: #282c34;
@@ -27,6 +31,501 @@
 .App-link {
   color: #61dafb;
 }
+
+.logg{
+  object-fit: cover;
+  width: 100px;
+  opacity: 0.5;
+  height: 50px;
+  padding-left: 20px;
+}
+.loggg{
+  object-fit: cover;
+  width: 120px;
+
+  opacity: 0.5;
+  padding-right:  20px;
+}
+
+
+#sig{
+  width: 50%;
+      height: 35px;
+      margin: 0 auto;
+      border: none; /* <-- This thing here */
+      border:solid 1px #ccc;
+      border-radius: 10px;
+}
+#cd{
+  padding-bottom:  1px;
+}
+.foter{
+  background-image: url('footer.jpg')!important;
+  
+ background-size: cover;  
+background-repeat: no-repeat;
+}
+
+#fb{
+    display: none;
+}
+#git{
+    display: none;
+}
+#pin{
+    display: none;
+}
+#tweet{
+    display: none;
+}
+#insta{
+    display: none;
+}
+
+
+.social{
+  margin-top: 150px;
+
+   
+}
+
+.socialh{
+  margin-top: 290px;
+   
+}
+
+.slinks{
+  margin-left: 20px;
+}
+
+
+
+.ress {
+  display: none;
+}
+   .navli:hover{
+ 
+    
+      margin-top:   0px;
+      box-shadow:  20px 15px  40px  rgba(0,2,0,0.79);
+     
+       animation: glowing 20s linear infinite;
+         
+    }
+
+.conhead{
+  height: 750px;
+     background-image: url('new.gif');
+background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  object-fit: cover;
+
+}
+
+
+#ret{
+ font-size: 0.5vw;
+}
+
+.ig{
+  float: left;
+}
+
+.mob{
+
+}
+
+.ch{
+ padding: 0.75rem 1.25rem;
+}
+
+.lsb{
+  background-color: #57b9d1;
+}
+
+.ig{
+  height: 100px;
+  margin-right: 30px;
+}
+
+#response{
+  padding-top: 90px;
+  font-size: 4vw;
+}
+
+#resp{
+    font-size: 1.5vw;
+}
+
+.dop{
+  padding-right:0;
+    padding-left:0;
+    margin-right:auto;
+    margin-left:auto
+ }
+
+ .dp{
+   object-fit: cover;
+   min-width: 100% !important;
+
+ }
+
+#si{
+  background: #53bad2;
+
+}
+
+#tp{
+  font-size: 4ev;
+  padding-top: 20px;
+padding-right:  300px;
+}
+
+#tpq{
+    font-size: 2ev;
+
+padding-right:  250px;
+  
+
+}
+
+.nxt{
+  
+    padding: 0 !important;
+}
+
+.sap{
+  font-family: 'Vollkorn', serif;
+}
+
+/*purchase btn */
+
+
+  #purbtn{
+ 
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid #91C9FF;
+  outline: none;
+  color: white;
+  transition: 1s ease-in-out;
+}
+
+svg {
+
+  left: 0;
+  top: 0;
+  fill: none;
+  stroke: #333;
+  stroke-dasharray: 150 480;
+  stroke-dashoffset: 150;
+  transition: 1s ease-in-out;
+}
+#purbtn:hover {
+  transition: 1s ease-in-out;
+  background: #5bbbcb;
+}
+#purbtn:hover svg {
+  stroke-dashoffset: -480;
+}
+
+
+
+/*lrnbtn*/
+
+#lrnbtn {
+  border-radius: 4px;
+  background-color: #000000;
+  border: none;
+  color: white;
+  text-align: center;
+  
+  transition: all 0.5s;
+  cursor: pointer;
+ 
+}
+
+#lrnbtn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+#lrnbtn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+#lrnbtn:hover span {
+  padding-right: 25px;
+  font-size: 20px;
+}
+
+#lrnbtn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+#buybtn{
+  
+  background:#5bbbcb;
+color: white;
+
+}
+
+
+#buybtn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+#buybtn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+#buybtn:hover span {
+  padding-right: 25px;
+}
+
+#buybtn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+#nap:hover {
+  background-color: yellow;
+}
+
+
+
+
+
+
+
+
+/*#lrnbtn{
+ background:#000000;
+color: white;
+}*/
+
+.lap{
+   padding: 250px 0;
+}
+#p1{
+font-size: 1px;
+color:#6a95a1;
+}
+#p2{
+font-size: 1vw;
+}
+
+a{
+  font-size: 1vw;
+}
+
+#nh{
+  font-size: 2vw;
+  margin-left: 350px;
+  color: white;
+
+}
+.meet{
+  font-family: 'Redressed', cursive !important;
+}
+
+
+
+ .meet {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em gray; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+
+/*media query large screen xl*/
+
+
+@media screen and (max-width: 1199px) and (min-width: 992px) {
+  #nh{
+  font-size: 2vw;
+  margin-left: 10px;
+  color: white;
+}
+
+.lap{
+ padding: 250px 0;
+
+
+}
+a{
+  font-size: 20px;
+}
+#p1{
+  font-size: 10px;
+  color:#6a95a1;
+
+}
+#p2{
+  font-size: 20px;
+}
+#navhome{
+  font-size: 20px !important;
+}
+
+}
+
+
+/*medium screen md media query*/
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  #nh{
+  font-size: 2vw;
+  margin-left: 20px;
+  color: white;
+}
+
+
+.lap{
+ padding: 200px 0;
+
+}
+
+
+a{
+  font-size: 10px;
+}
+#p1{
+  font-size: 5px;
+  color:#6a95a1;
+
+}
+#p2{
+  font-size: 10px;
+}
+#navhome{
+  font-size: 10px !important;
+}
+
+
+}
+@media screen and (max-width: 767px){
+   #nh{
+  font-size: 20px;
+  margin-left: 0px;
+  color: white;
+  text-align: left;
+}
+a{
+  text-align: left !important;
+}
+#p1{
+  text-align: left !important;
+  color:#6a95a1;
+
+}
+#p2{
+    text-align: left !important;
+
+}
+.lap{
+ padding: 150px 0;
+
+}
+a{
+  font-size: 12px;
+}
+
+}
+
+@media screen and (max-width: 1687px) and (min-width: 1200px){
+  #nh{
+  font-size: 40px;
+  margin-left: 180px;
+  color: white;
+  text-align: left;
+}
+a{
+  font-size: 20px;
+}
+#p1{
+  font-size: 10px;
+  color:#6a95a1;
+
+}
+#p2{
+  font-size: 20px;
+}
+#navhome{
+  font-size: 20px !important;
+}
+}
+@media screen and (max-width: 578px) and (min-width: 150px){
+    #nh{
+  font-size: 30px;
+  margin-left: 0px;
+  color: white;
+  text-align: left;
+}
+.meet{
+  font-size: 25px !important;
+  padding-bottom:    0px !important;
+}
+.meetp1{
+  font-size: 10px !important;
+}
+.meetp2{
+  font-size: 10px !important;
+}
+a{
+  font-size: 10px !important;
+}
+#p1{
+  font-size: 5px !important;
+  color:#6a95a1;
+
+}
+#p2{
+  font-size: 20px;
+}
+#navhome{
+  font-size: 20px !important;
+}
+
+
+  }
 
 @keyframes App-logo-spin {
   from {
